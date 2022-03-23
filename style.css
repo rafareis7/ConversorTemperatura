@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+h1{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 100
+  }
+body{ 
+  background-color: #994243;
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  min-height: 875px;  }
+
+.container {
+  text-align: center;
+  padding: 12px;
+  max-width: 400;
+  max-height:800;
+}
+
+.page-logo {
+  height = 10%;
+  width = 25%;
+  padding = 20px;
+}
+.logo {
+}
+.corpo {
+  padding: 24px;
+}
+
+#temperatura {
+  text-align: center;
+  border-radius: 8px:
+}
+
+.input {
+display: flex;
+flex-direction: column;
+text-align: justify;
+margin-top: 10px;
+}
+
+#btnConverter {
+  margin-top: 10px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.resultado {
+  text-align: center;
+  padding: 48px;
+}

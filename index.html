@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Convertor de Temperatura</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+   <div class= "container">
+     <div class= "cabeca">
+       <div class= "page-logo">
+       <img class= "logo" src = "https://cdn-icons-png.flaticon.com/512/1312/1312332.png">
+       </div>
+      <div class= "page-title">
+    <h1> Conversor de Temperatura </h1>
+    <h3> Quantos graus são em...?</h3>
+       </div>
+       </div>
+     <div class = "corpo">
+      <input type = "number" id = "temperatura" placeholder="Digite a temperatura aqui">
+    <div class ="input">
+      <input id= "celcius" type = "radio" name ="opcao" value= "celcius"> <label for = "celcius">De Fahrenheit para Celcius</label>
+  <input id= "fahrenheit" type= "radio" name= "opcao" value= "fahrenheit"> <label for= "fahrenheit">De Celcius para Fahrenheit</label>
+   <input id= "kelvin" type= "radio" name= "opcao" value= "kelvin"> <label for "kelvin">De Celcius para Kelvin</label>
+      </div>
+     </div>
+   <button id= "btnConverter" type = "submit" onClick = "converter()"> Converter </button>
+    <div class= "resultado" id= "resultado"></div>
+   </div>
+     </body>
+ </html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
